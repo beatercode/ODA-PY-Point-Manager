@@ -1,0 +1,62 @@
+WARNING:root:Started
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+ERROR:apscheduler.executors.default:Job "daily_print (trigger: cron[hour='0', minute='0', second='55'], next run at: 2022-06-04 00:00:55 UTC)" raised an exception
+Traceback (most recent call last):
+  File "/home/runner/ODA-points-manager/venv/lib/python3.8/site-packages/apscheduler/executors/base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+  File "main.py", line 362, in daily_print
+    await channel.send(to_print)  # ch bot announcement? or delete
+  File "/home/runner/ODA-points-manager/venv/lib/python3.8/site-packages/discord/abc.py", line 1065, in send
+    data = await state.http.send_message(channel.id, content, tts=tts, embed=embed,
+  File "/home/runner/ODA-points-manager/venv/lib/python3.8/site-packages/discord/http.py", line 254, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In content: Must be 2000 or fewer in length.
+WARNING:root:Started
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started at 2022-06-03 08:13:31
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started at 2022-06-03 12:09:53
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started at 2022-06-03 16:05:14
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started at 2022-06-03 16:47:46
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started at 2022-06-03 21:07:24
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started at 2022-06-03 22:29:20
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started at 2022-06-03 23:06:46
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+ERROR:apscheduler.executors.default:Job "daily_print (trigger: cron[hour='0', minute='0', second='55'], next run at: 2022-06-05 00:00:55 UTC)" raised an exception
+Traceback (most recent call last):
+  File "/home/runner/ODA-points-manager/venv/lib/python3.8/site-packages/apscheduler/executors/base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+  File "main.py", line 371, in daily_print
+    await channel.send(to_print)  # ch bot announcement? or delete
+  File "/home/runner/ODA-points-manager/venv/lib/python3.8/site-packages/discord/abc.py", line 1065, in send
+    data = await state.http.send_message(channel.id, content, tts=tts, embed=embed,
+  File "/home/runner/ODA-points-manager/venv/lib/python3.8/site-packages/discord/http.py", line 254, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In content: Must be 2000 or fewer in length.
+WARNING:root:Started at 2022-06-04 07:30:54
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:root:Started at 2022-06-04 08:03:01
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
